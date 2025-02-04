@@ -1,0 +1,49 @@
+Creating Visuals in Power BI (No DAX)
+1. Sales Overview
+
+    Visual Type: Column Chart
+        Axis: Order Date (Month/Year)
+        Values: Revenue
+        This will give you a clear view of sales trends over time!
+
+2. Top Products by Sales
+
+    Visual Type: Bar Chart
+        Axis: Product Name
+        Values: Revenue
+        Sort By: Revenue (Descending)
+        This will help identify your best-selling products.
+
+3. Sales by Region
+
+    Visual Type: Map
+        Location: Region (from the Regions table)
+        Size: Revenue
+        This will show which regions bring in the most sales!
+
+4. Sales by Channel
+
+    Visual Type: Pie Chart
+        Legend: Channel
+        Values: Revenue
+        This will illustrate how each sales channel contributes to total revenue.
+
+5. Customer Analysis
+
+    Visual Type: Table
+        Columns: Customer Name, Total Revenue, Order Quantity
+        Add a slicer for Customer Name so you can explore specific customer data.
+
+
+Enhance Your Visuals
+
+    Filters:
+    Add slicers for:
+        Order Date (to filter by specific periods)
+        Region (to drill down into regional performance)
+        Product (to analyze specific products)
+
+    Formatting Tips:
+        Add Data Labels to charts for clarity.
+        Use Conditional Formatting in tables to highlight high/low values.
+        Apply a consistent color scheme to make your report visually appealing.

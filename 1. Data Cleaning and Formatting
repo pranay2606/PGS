@@ -1,0 +1,50 @@
+1. Data Cleaning and Formatting
+Rename Columns for better readability:
+
+    Order Quantity → Quantity Sold
+    Total Unit Cost → Cost per Unit
+    Total Revenue → Revenue
+
+Change Data Types:
+
+    Convert Order Date and Ship Date to Date format.
+    Convert Order Quantity, Unit Price, and Total Revenue to Decimal Number.
+
+Remove Unnecessary Columns (if any irrelevant ones exist).
+Remove Duplicates to ensure clean data.
+Sort Data based on Order Date.
+
+Calculated Columns
+1. Calculate Profit Per Order
+2. Calculate Order Processing Time
+
+
+Customers Table:
+
+    Rename Customer Index → Customer ID.
+    Check for missing or duplicate values.
+    Sort customers alphabetically for easy reference.
+
+Regions Table:
+
+    Rename Index → Region ID.
+    Ensure Latitude and Longitude are in Decimal Number format.
+    Check if all regions are covered (no missing values)
+
+Products Table:
+
+    Rename Index → Product ID.
+    Ensure all product names are properly formatted.
+    Sort products by Product ID for easy lookup.
+
+Data Filtering & Sorting
+
+    Filter Sales Orders:
+        Remove orders with Order Quantity = 0 (if applicable).
+        Filter by specific date range (e.g., last year’s data).
+    Sort Sales Data:
+        Sort by Revenue (Descending Order) to see top-performing orders.
+        Sort by Order Date (Ascending Order) to see sales trends.
+
+
+
